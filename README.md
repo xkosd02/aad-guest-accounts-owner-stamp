@@ -8,4 +8,4 @@ The script uses Graph API for all operations. It assumes an AAD app is registere
 AuditLog.Read.All
 User.ReadWrite.All
 
-MSAL.PS module is used for obtaining Graph access token for convenience. This can be easily replaced with your own code if you want to only use pure PowerShell without module dependencies.  
+MSAL.PS module is used for obtaining Graph access token for convenience. This can be easily replaced with your own code if you want to only use pure PowerShell without any module dependencies.  
