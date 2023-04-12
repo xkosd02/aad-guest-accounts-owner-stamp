@@ -9,7 +9,7 @@ $ClientId = 'xyz123'
 $Thumbprint = '123456789'
 $ClientCertificate = Get-Item "Cert:\LocalMachine\My\$($Thumbprint)"
 
-$Yesterday 			= $(Get-Date).AddDays(-1-$daysBackOffset).ToString("yyyy-MM-dd")
+$Yesterday 		= $(Get-Date).AddDays(-1-$daysBackOffset).ToString("yyyy-MM-dd")
 $YesterdayUTCStart 	= $Yesterday + "T00:00:00Z"
 
 #wrapper function for reading from Graph
