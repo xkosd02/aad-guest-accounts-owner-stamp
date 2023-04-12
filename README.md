@@ -7,4 +7,5 @@ What this scripts does is that it reads recently created AAD guest accounts (ext
 The script uses Graph API for all operations. It assumes an AAD app is registered in the tenant with the following application permissions:
 AuditLog.Read.All
 User.ReadWrite.All
+
 MSAL.PS module is used for obtaining Graph access token for convenience. This can be easily replaced with your own code if you want to only use pure PowerShell without module dependencies.  
